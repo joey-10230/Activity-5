@@ -1,0 +1,14 @@
+def classify_age():
+    age = int(input("lagay age: "))
+    if age < 0:
+        return "bawal ikaw dito"
+    elif age <= 12:
+        return "ikaw ay bata"
+    elif age <= 19:
+        return "ikaw ay teen"
+    elif age <= 64:
+        return "ikaw ay matanda"
+    else:
+        return "senior na ikaw"
+
+print(classify_age())
